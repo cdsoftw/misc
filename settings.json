@@ -1,25 +1,18 @@
 {
-    "workbench.colorTheme": "Zenburn",
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "'CourierPrimeCode NF', 'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.renderWhitespace": "boundary",
-    "editor.wordWrap": "on",
-    "terminal.integrated.fontFamily": "'Fira Code', 'CourierPrimeCode NF'",
-    "terminal.integrated.fontWeight": "1",
-    "terminal.integrated.fontWeightBold": "500",
-    "terminal.integrated.fontSize": 12,
-    "editor.fontLigatures": true,
-    "editor.fontSize": 13,
-    "editor.fontWeight": "1",
-    "cypressHelper.cucumberTagsAutocomplete": {
-
-
-        "enable": false,
-        "allurePlugin": false,
-        "tags": [
-            "focus"
-        ]
-    },
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 900000
+  "workbench.colorTheme": "Zenburn",
+  "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'Courier Prime Code', 'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font', 'Cascadia Mono'",
+  "terminal.integrated.fontWeight": "1",
+  "terminal.integrated.fontWeightBold": "500",
+  "terminal.integrated.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "1",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 900000,
 }
