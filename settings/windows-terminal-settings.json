@@ -6,6 +6,12 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "disabledProfileSources": 
+    [
+        "Windows.Terminal.Azure",
+        "Windows PowerShell",
+        "Windows.Terminal.VisualStudio"
+    ],
     "keybindings": 
     [
         {
@@ -13,12 +19,12 @@
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
         },
         {
             "id": "Terminal.DuplicatePaneAuto",
@@ -46,17 +52,7 @@
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
                 "elevate": false,
-                "font": 
-                {
-                    "face": "FiraCode Nerd Font"
-                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -64,53 +60,31 @@
                 "startingDirectory": "%USERPROFILE%\\repos\\bt"
             },
             {
-                "commandline": "wsl ~ --user cdapprich",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "elevate": true,
+                "guid": "{b40994e7-0bb9-4aa5-869e-0afd4da5b8d2}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell (Admin)",
+                "startingDirectory": "%USERPROFILE%\\repos\\bt"
+            },
+            {
+                "commandline": "wsl --user cdapprich",
                 "elevate": false,
-                "guid": "{fff452f6-62f4-5a43-a743-c0c8ea375779}",
+                "guid": "{3d2c1791-c770-4e42-b528-873ce79cec81}",
                 "hidden": false,
+                "icon": "C:\\Users\\cdapprich\\AppData\\Local\\wsl\\{23748f38-e330-4e81-92db-5f48ed466e58}\\shortcut.ico",
                 "name": "Ubuntu",
-                "source": "Microsoft.WSL"
+                "pathTranslationStyle": "wsl",
+                "suppressApplicationTitle": true,
+                "wsl.distribution-type": "ubuntu",
+                "wsl.distribution-version": "24.04"
             },
             {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Windows PowerShell"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{d6ac0c2e-236c-5eeb-b0ed-5eadbc47b26b}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{c64bfcff-39e1-5c16-a558-d4d2f6caf000}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{3aa83917-836c-57e3-b57b-0ace67fb4589}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{f585c470-e27d-5339-afbf-7c9b2d2443c5}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
+                "name": "Command Prompt"
             }
         ]
     },
