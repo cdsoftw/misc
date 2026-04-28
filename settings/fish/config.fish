@@ -1,5 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
+    cd ~
     starship init fish | source
     load_nvm > /dev/stderr
 
@@ -27,4 +28,3 @@ if status is-interactive
     set fish_color_host cyan
     set fish_color_user cyan
 end
-
