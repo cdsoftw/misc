@@ -1,7 +1,7 @@
 /*
 ========================================================================================
  Name        :  balance_bracket.cpp
- Author      :  Cole Dapprich
+ Author      :  cdsoftw
  Version     :  1.0
  Course      :  CSCE 3110.001
  Description :  This program uses a STL stack to check a given source code file for un-

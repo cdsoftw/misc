@@ -1,7 +1,7 @@
 /*
 ============================================================================
  Name        : diamond.cpp
- Author      : Cole Dapprich
+ Author      : cdsoftw
  Version     : 1.0
  Copyright   : 2015
  Description : Uses 3 programmer-defined functions to determine if an integer

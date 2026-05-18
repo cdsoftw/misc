@@ -1,6 +1,6 @@
 #=========================================================================================
 #Name        :  count.py
-#Author      :  Cole Dapprich
+#Author      :  cdsoftw
 #Version     :  1.0
 #Course      :  CSCE 4430.001
 #Description :  This python script reads in two command line arguments and counts all occ-

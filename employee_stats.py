@@ -1,6 +1,6 @@
 #==========================================================================================
 #Name        :  count.py
-#Author      :  Cole Dapprich
+#Author      :  cdsoftw
 #Version     :  1.0
 #Course      :  CSCE 4430.001
 #Description :  This python script uses a class to parse a .csv file and create a list of

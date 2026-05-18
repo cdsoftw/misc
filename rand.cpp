@@ -1,7 +1,7 @@
 /*
 ===========================================================================================
  Name        :  rand.cpp
- Author      :  Cole Dapprich
+ Author      :  cdsoftw
  Version     :  1.0
  Course      :  CSCE 4444.003
  Description :  This program generates sets of integers that either do not repeat or repeat

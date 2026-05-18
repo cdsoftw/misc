@@ -1,7 +1,7 @@
 /*
 ========================================================================================
  Name        :  hanoi.cpp
- Author      :  Cole Dapprich
+ Author      :  cdsoftw
  Version     :  1.0
  Course      :  CSCE 3110.001
  Description :  This program solves the Towers of Hanoi in the minimum number of moves.

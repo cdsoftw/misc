@@ -1,6 +1,6 @@
 # ========================================================================================
 # Name        : draft.sh
-# Author      : Cole Dapprich
+# Author      : cdsoftw
 # Version     : 2.0
 # Date        : 8/22/2017
 # Description : This bash script runs a draft by using sed commands to delete picked play-

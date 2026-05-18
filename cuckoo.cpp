@@ -1,7 +1,7 @@
 /*
 ========================================================================================
  Name        :  cuckoo.cpp
- Author      :  Cole Dapprich
+ Author      :  cdsoftw
  Version     :  1.0
  Course      :  CSCE 3110.021
  Description :  This program reads in a series of integers from a file and uses cuckoo
